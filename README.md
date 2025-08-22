@@ -32,6 +32,15 @@ Data-Automation-Dashboard-Suite/
 ├── requirements.txt # Required Python packages
 └── README.md # Project documentation
 
+
+# Amazon Products Dashboard
+
+This project contains automation scripts and a Dash dashboard.
+
+## 📸 Screenshot
+![Dashboard Screenshot](screenshots/dashboard.png)
+
+
 ## run_all.py
 replace with email id
    sender_email = os.getenv("SENDER_EMAIL", "add@gmail.com")
@@ -49,12 +58,6 @@ git clone https://github.com/your-username/Data-Automation-Dashboard-Suite.git
 Navigate to the project directory
 
 
-# Amazon Products Dashboard
-
-This project contains automation scripts and a Dash dashboard.
-
-## 📸 Screenshot
-![Dashboard Screenshot](screenshots/dashboard.png)
 
 
 
