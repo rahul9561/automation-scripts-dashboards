@@ -32,6 +32,12 @@ Data-Automation-Dashboard-Suite/
 ├── requirements.txt # Required Python packages
 └── README.md # Project documentation
 
+## run_all.py
+replace with email id
+   sender_email = os.getenv("SENDER_EMAIL", "add@gmail.com")
+    sender_password = os.getenv("SENDER_PASSWORD", "app_password")
+    receiver_email = os.getenv("RECEIVER_EMAIL", "rec@gmail.com")
+
 
 ---
 
@@ -42,9 +48,19 @@ Data-Automation-Dashboard-Suite/
 git clone https://github.com/your-username/Data-Automation-Dashboard-Suite.git
 Navigate to the project directory
 
+
+# Amazon Products Dashboard
+
+This project contains automation scripts and a Dash dashboard.
+
+## 📸 Screenshot
+![Dashboard Screenshot](screenshots/dashboard.png)
+
+
+
 python3 -m venv venv
 
-for window - source venv/Scripts/activate
+for window -  venv/Scripts/activate
 for mac/linux - source venv/bin/activate
 
 cd Data-Automation-Dashboard-Suite
@@ -53,3 +69,7 @@ pip install -r requirements.txt
 Run the Dashboard
 
 python dashboard_app.py
+
+
+# for send mail 
+python run_all.py
