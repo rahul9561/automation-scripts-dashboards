@@ -1,0 +1,4 @@
+product_name,category,rating,rating_count,discount_percentage,img_link,product_link
+Wireless Earbuds,Electronics,4.5,1200,20,https://via.placeholder.com/150,https://amazon.com/earbuds
+Smart Watch,Electronics,4.2,900,15,https://via.placeholder.com/150,https://amazon.com/smartwatch
+Running Shoes,Fashion,4.7,500,30,https://via.placeholder.com/150,https://amazon.com/shoes

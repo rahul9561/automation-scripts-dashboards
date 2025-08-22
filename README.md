@@ -42,6 +42,11 @@ Data-Automation-Dashboard-Suite/
 git clone https://github.com/your-username/Data-Automation-Dashboard-Suite.git
 Navigate to the project directory
 
+python3 -m venv venv
+
+for window - source venv/Scripts/activate
+for mac/linux - source venv/bin/activate
+
 cd Data-Automation-Dashboard-Suite
 
 pip install -r requirements.txt
